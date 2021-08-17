@@ -2,10 +2,11 @@
   "required": true,
   "minVersion": "0.8",
   "package": "ca.spottedleaf.starlight.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_16",
   "mixins": [
     "common.blockstate.BlockStateBaseMixin",
     "common.chunk.ChunkAccessMixin",
+    "common.chunk.ChunkHolderMixin",
     "common.chunk.EmptyLevelChunkMixin",
     "common.chunk.ImposterProtoChunkMixin",
     "common.chunk.LevelChunkMixin",
